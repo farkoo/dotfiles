@@ -1,0 +1,14 @@
+set autoindent                  " Auto indent
+set smartindent                 " Smart indent
+set number                      " Show line numbers
+set textwidth=80
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+call plug#begin('~/.vim/plugged')
+
+" git
+Plug 'airblade/vim-gitgutter' " A Vim plugin which shows a git diff in the gutter (sign column) and stages/undoes hunks.
+Plug 'cohama/agit.vim'        " A powerful Git log viewer
